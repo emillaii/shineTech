@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/jquery.flowchart.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    
+    <script src="js/jquery.panzoom.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    
+    <script src="js/jquery.flowchart.js"></script>
+    <script src="js/main.js"></script>
+	
+	<script src="js/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.modal.min.css" />
+ 
+    <title>Flow chart</title>
+  </head>
+  
+  <section >
+	  <nav>
+	  <h1>Silicool Process Diagram</h1>
+		<ul>
+			<button id="create_start" class="btn btn-primary test_button">Start</button>
+			<button id="create_init_camera" class="btn btn-primary test_button">Init Camera</button>
+			<button id="create_y_level" class="btn btn-primary test_button">Y Level</button> 
+			<button id="create_pr_to_bond" class="btn btn-primary test_button">PR To Bond</button>
+			<button id="create_initial_tilt" class="btn btn-primary test_button">Initial Tilt</button>
+		</ul>
+		<ul>
+			<button id="create_load_material" class="btn btn-success test_button">Load Material</button>
+			<button id="create_oc" class="btn btn-success test_button">OC</button>
+			<button id="create_aa" class="btn btn-success test_button">AA</button>
+			<button id="create_mtf" class="btn btn-success test_button">MTF</button>
+			<button id="create_uv" class="btn btn-success test_button">UV</button>
+			<button id="create_init_lens" class="btn btn-success test_button">Move Lens</button>
+			<button id="create_disp" class="btn btn-success test_button">Dispense</button>
+			<button id="create_unload_camera" class="btn btn-success test_button">Unload Camera</button>
+		</ul>
+		<ul>
+			<button id="create_z_offset" class="btn btn-info test_button">Z Offset</button>
+			<button id="create_xy_offset" class="btn btn-info test_button">XY Offset</button>
+			<button id="create_delay" class="btn btn-info test_button">Delay</button>
+			<button id="create_accept" class="btn btn-info test_button">Accept</button>
+			<button id="create_reject" class="btn btn-info test_button">Reject</button>
+			<button id="create_grr" class="btn btn-info test_button">GRR</button>
+			<button id="create_terminate" class="btn btn-info test_button">Terminate</button>
+			<button id="create_partical_check" class="btn btn-info test_button">Partical Check</button>
+		</ul>
+		<ul>
+			<button id="create_thread" class="btn btn-danger test_button">Parallel Test</button>
+			<button id="create_join_thread" class="btn btn-danger test_button">End Parallel Test</button>
+		</ul>
+	  </nav>
+	  
+	  <article>
+		<p>Keyboard C - Duplicate operator; E - Edit parameters in operator</p>
+		<p>Keyboard DELETE - Delete Link or operator; Double Click - Run operator</p>
+	    <div class="flowchart-example-container flowchart-container" id="example_7">
+		<svg class="flowchart-links-layer"></svg>
+		</div>
+	  </article>
+  </section>
+
+  <div class="flowchart-example"  style="margin-left: 2%">
+	
+	<!-- Modal HTML embedded directly into document -->
+	<div id="ex1" class="modal">
+		<div id="operator_properties">
+		  <label for="operator_title">Operator's title: </label><input type="text" id="operator_title">
+		</div>
+		<div id="aa_operator_properties">
+		  <label for="aa_operator_title">Operator's title: </label><input type="text" id="aa_operator_title">
+		</div>
+		<div id="initial_tilt_properties">
+		  <label for="initial_tilt_title">Operator's title: </label><input type="text" id="initial_tilt_operator_title">
+		</div>
+		<div id="y_level_operator_properties">
+		  <label for="y_level_title">Operator's title: </label><input type="text" id="y_level_operator_title">
+		</div>
+		<div id="oc_operator_properties">
+		  <label for="oc_operator_title">Operator's title: </label><input type="text" id="oc_operator_title">
+		</div>
+		<div id="aa_z_offset_operator_properties">
+		  <label for="aa_z_offset_operator_title">Operator's title: </label><input type="text" id="aa_z_offset_operator_title">
+		</div>
+		<div id="aa_xy_offset_operator_properties">
+		  <label for="aa_xy_offset_operator_title">Operator's title: </label><input type="text" id="aa_xy_offset_operator_title">
+		</div>
+		<div id="save_image_operator_properties">
+		  <label for="save_image_operator_title">Operator's title: </label><input type="text" id="save_image_operator_title">
+		</div>
+		<div id="dispense_operator_properties">
+		  <label for="dispense_operator_title">Operator's title: </label><input type="text" id="dispense_operator_title">
+		</div>
+		<div id="mtf_table">
+			<label for="mtf_operator_title">Operator's title: </label><input type="text" id="mtf_operator_title">
+			<table id="mtf_table_form" style="width:50%">
+			</table>
+		</div>
+		<div id="grr_operator_properties">
+			<label for="grr_operator_title">Operator's title: </label><input type="text" id="grr_operator_title">
+		</div>
+		<div id="uv_operator_properties">
+			<label for="uv_operator_title">Operator's title: </label><input type="text" id="uv_operator_title">
+		</div>
+		<div id="init_lens_operator_properties">
+			<label for="init_lens_operator_title">Operator's title: </label><input type="text" id="init_lens_operator_title">
+		</div>
+		<div id="partical_check_operator_properties">
+			<label for="partical_check_operator_title">Operator's title: </label><input type="text" id="partical_check_operator_title">
+		</div>
+      <button id="update_data_button">Update data</button>
+	  <button id="close_modal_button">Cancel</button>
+	</div>
+  <div>
+  <div>
+    <textarea id="flowchart_data"></textarea>
+  </div>
+  <div>
+    <textarea id="flowchart_running_cmd"></textarea>
+  </div>
+  
+  <button class="delete_selected_button">Delete selected operator / link</button>
+  <button id="get_data">Get data</button>
+  <button id="set_data">Set data</button>
+  <button class="update_data">Update data</button>
+  <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+  <p><a href="#ex1" rel="modal:close">Close window</a></p>
+</html>

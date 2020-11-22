@@ -1,0 +1,57 @@
+END-USER LICENSE AGREEMENT
+
+DEVASYS EMBEDDED SYSTEMS IS WILLING TO LICENSE THIS SOFTWARE TO YOU ONLY IF YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS END-USER LICENSE AGREEMENT ("EULA"). PLEASE READ THE TERMS OF THIS EULA CAREFULLY.  BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE (AS DEFINED BELOW), YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT AGREE WITH THE TERMS OF THIS EULA, DO NOT INSTALL OR USE THE SOFTWARE.  
+
+1. LICENSE
+DeVaSys Embedded Systems. ("DeVaSys") grants you a limited, non-exclusive license to use this Software ("Software" means the computer programs accompanying or provided under this EULA) only in connection with the USB-I2C/IO (“Product “) as manufactured and/or supplied, whether directly or indirectly, by DeVaSys, or manufactured and supplied by a third party having a license from DeVaSys to manufacture and supply the Product, subject to the terms and restrictions set forth in this EULA. The Software is licensed, not sold.  All rights reserved.
+
+2. PERMITTED USE
+You may use the Software solely for your own customary business or personal purposes and solely in connection with the use and operation of the Product.  The Software is not intended for use with any device other than the Product.  No license to the Software is granted for use with any device other than the Product, and no use of the Software with any device other than the Product is permitted.  
+
+3. PROHIBITED USE
+You may not make or have made, or permit to be made, any copies of the Software or portions thereof, except as necessary for backup or archive purposes in support of your use of the Software as permitted hereunder. You may not lease or rent the Software.
+
+4. OTHER RESTRICTIONS 
+DeVaSys reserves all rights not expressly granted to you. Without limiting the generality of the foregoing, you shall not nor shall you permit any other party to: (i) disassemble, de-compile, reverse engineer, or translate any part of the Software, or otherwise attempt to reconstruct or discover the source of this Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation, or (ii) modify or create derivative works based upon the Software, or (iii) externally distribute, sublicense, resell, encumber, or otherwise transfer this Software, or (iv) rent, lease, lend, or use the Software for timesharing or bureau use, or (v) allow a third party to copy, access, or use the Software (except as expressly provided in Section 2 of this EULA), or (vi) disclose the results of any benchmark test of the Software to a third party without the prior written approval of DeVaSys, or (vii) take any actions that would cause the Software to become subject to any open source or quasi-open source license agreement. 
+
+5. PROPRIETARY RIGHTS
+You acknowledge that the Software and the Product are proprietary to DeVaSys and its suppliers and that title and other intellectual property rights therein remain solely with DeVaSys and its suppliers. Except as stated above, this EULA does not grant you any right to patents, copyrights, trade secrets, trademarks (whether registered or unregistered), or any other rights, franchises or licenses in respect of the Software or the Product. You may not adapt or use any trademark or trade name which is likely to be similar to or confusing with that of DeVaSys or any of its suppliers or take any other action which impairs or reduces the trademark rights of DeVaSys or its suppliers. 
+
+
+6. REMEDIES AND TERMINATION
+Unauthorized use, copying or disclosure of the Software, Product or any breach of this EULA will result in automatic termination of your license granted by this EULA in addition to other remedies available to DeVaSys under applicable law. In the event of termination, you must destroy all copies of the Software and all of its component parts. All provisions of this EULA relating to disclaimers of warranties, limitation of liability, remedies, or damages, and DeVaSys’ proprietary rights shall survive termination. 
+
+7. NO WARRANTIES.  
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OR REPRESENTATION OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. ANY EXPRESS WARRANTY MADE OUTSIDE OF THIS EULA IS EXCLUDED AND SUPERCEDED. NEITHER DEVASYS NOR ITS SUPPLIERS, SUBCONTRACTORS OR LICENSORS REPRESENT OR WARRANT THAT THE SOFTWARE WILL SATISFY YOUR REQUIREMENTS OR THAT IT IS WITHOUT DEFECT OR ERROR OR THAT THE OPERATION THEREOF WILL BE UNINTERRUPTED OR ERROR FREE. Some jurisdictions do not allow certain disclaimers or limitations of warranties, so some of these may not apply to you. 
+
+8. NOTICE. 
+THE SOFTWARE IS NOT INTENDED OR LICENSED FOR USE IN ANY HAZARDOUS OR HIGH RISK ACTIVITY.
+
+THE SOFTWARE AND ANY EQUIPMENT DELIVERED UNDER THIS AGREEMENT ARE NOT DESIGNED OR INTENDED FOR USE IN MEDICAL LIFE SUPPORT SYSTEMS AND SERVICES, ON-LINE CONTROL OF AIRCRAFT, AIR TRAFFIC, AIRCRAFT NAVIGATION OR AIRCRAFT COMMUNICATIONS; OR IN THE DESIGN, CONSTRUCTION, OPERATION OR MAINTENANCE OF ANY NUCLEAR FACILITY. 
+
+9. LIMITATION OF LIABILITY
+IN NO EVENT WILL DEVASYS OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES, INCLUDING LOSS OF DATA, LOST PROFITS, COST OF COVER OR OTHER SPECIAL, INCIDENTAL, CONSEQUENTIAL OR INDIRECT DAMAGES ARISING FROM THE SALE, INSTALLATION, MAINTENANCE, USE, PERFORMANCE OR FAILURE OF THE SOFTWARE, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY. THIS LIMITATION WILL APPLY EVEN IF DEVASYS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. YOU ACKNOWLEDGE THAT THE PRICE OF THE PRODUCT REFLECTS THIS ALLOCATION OF RISK. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. 
+
+
+10. EVALUATION LICENSE. 
+This Section applies to you if the Software is licensed to you for evaluation or demonstration purposes. You are permitted to use the Software for evaluation or demonstration purposes only. The Software may contain an automatic disabling mechanism. Your right to use the Software is limited in accordance with the terms under which you received the Software. If no period of use is specified, then your right to use the Software shall terminate thirty (30) days from receipt of the Software, at which time you must return or destroy the Software. 
+
+
+11. NO SUPPORT.
+Except as expressly required by applicable law, nothing in this EULA entitles you to any support, maintenance, or new versions of the Software. You may contact DeVaSys to determine the availability of support, maintenance, and new versions of the Software, and the fees, terms, and conditions that would apply. 
+
+12. CONSTRUCTION. 
+No rule of strict construction shall apply against or in favor of either party in the construction and interpretation of this EULA. 
+
+
+13. ASSIGNMENT. 
+You may not assign, sublicense, or transfer this EULA, the Software, or any rights or obligations hereunder without prior written consent of DeVaSys. Any such attempted assignment, sublicense, or transfer will be null and void. DeVaSys may terminate this EULA in the event of any such attempted assignment, sublicense, or transfer. 
+
+14. ENTIRE AGREEMENT. 
+This EULA sets forth the entire understanding and agreement between the parties relating to its subject matter and may be amended only in a writing signed by both parties. Any waiver of or promise not to enforce any right under this EULA shall not be enforceable unless evidenced by a writing signed by the party making said waiver or promise. ANY TERMS AND CONDITIONS OF ANY PURCHASE ORDER OR OTHER DOCUMENT SUBMITTED BY YOU IN CONNECTION WITH THE SOFTWARE THAT ARE IN ADDITION TO, DIFFERENT FROM, OR INCONSISTENT WITH THE TERMS AND CONDITIONS OF THIS EULA ARE NOT BINDING ON DEVASYS AND ARE INEFFECTIVE. NO VENDOR, DISTRIBUTOR, DEALER, RETAILER, SALES PERSON, OR OTHER PERSON IS AUTHORIZED BY DEVASYS TO MODIFY THIS EULA OR TO MAKE ANY WARRANTY, REPRESENTATION, OR PROMISE THAT IS DIFFERENT THAN OR IN ADDITION TO THE WARRANTIES, REPRESENTATIONS, OR PROMISES EXPRESSLY SET FORTH IN THIS EULA.
+
+15. EXPORT CONTROLS
+You agree that you will not export or re-export the Software in any form in violation of any applicable laws or regulations of the United States or the country in which you obtained them. 
+
+16. GENERAL
+The laws of the State of New York govern this EULA. You agree that this EULA shall not be subject to the United Nations Convention on Contracts for the International Sale of Goods (1980). This EULA is the entire agreement held between us and supersedes any other communications or advertising with respect to the Software. If any provision of this EULA is held invalid, the remainder of this EULA shall continue in full force and effect. 

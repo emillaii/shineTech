@@ -1,0 +1,192 @@
+nav {
+  float: left;
+  width: 20%;
+  height: 1500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 1500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+selected {
+	background-color: #444
+}
+
+.test_button {
+  margin-top:10px;
+}
+
+.flowchart-example-container {
+  height: 1200px;
+  border: 1px solid #BBB;
+  margin-bottom: 10px;
+  background: #545b62;
+}
+
+.flowchart-operator-connector-arrow {
+  top: 4px;
+}
+
+.flowchart-operator-connector-small-arrow {
+  top: 9px;
+}
+
+.flowchart-example pre {
+  display: none;
+}
+
+#create_operator {
+  margin-bottom: 10px;
+}
+
+.flowchart-example-event {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #3366FF;
+}
+
+#last_event_example_6 {
+  display: block;
+  overflow-y: auto;
+  height: 100px;
+}
+
+#flowchart_data {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 140px;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+#operator_menu {
+    margin-top: 10px;
+}
+
+#operator_properties, #link_properties, #aa_operator_properties, #initial_tilt_properties,
+#oc_operator_properties, #save_image_operator_properties, #aa_xy_offset_operator_properties,
+#y_level_operator_properties,#dispense_operator_properties,#aa_z_offset_operator_properties, #mtf_table, #grr_operator_properties,#uv_operator_properties,#init_lens_operator_properties,#partical_check_operator_properties {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid;
+  padding: 10px;
+}
+
+#aa_z_offset_operator_properties {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid;
+  padding: 10px;
+}
+
+#example_9 {
+  width: 2000px;
+  height: 2000px;
+  background: white;
+}
+
+#chart_container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: repeating-linear-gradient(
+      45deg,
+      #eee,
+      #eee 10px,
+      #e5e5e5 10px,
+      #e5e5e5 20px
+    );
+    border: 1px solid black;
+}
+
+.draggable_operator {
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid #ccc;
+  cursor: grab;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.draggable_operators {
+  margin-top: 10px;
+}
+
+.draggable_operators_label {
+  margin-bottom: 5px;
+}
+
+.draggable_operators_divs {
+  margin-bottom: 20px;
+}
+
+.delete_selected_button {
+  margin-bottom: 20px;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
